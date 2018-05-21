@@ -5,7 +5,7 @@ from bson.code import Code
 from bson.son import SON
 db = Connection.test
 
-#Creating Map function for notification collection*/
+#Creating Map function for data collection*/
 map_function = Code("""
   function(){
   if(this.year == null) return;
